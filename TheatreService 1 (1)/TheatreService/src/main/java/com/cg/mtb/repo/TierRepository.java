@@ -1,0 +1,15 @@
+package com.cg.mtb.repo;
+import com.cg.mtb.entity.TierEntity;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface TierRepository extends CrudRepository<TierEntity, Integer> {
+	List<TierEntity> findByTheatre_TheatreId(int theatreId);
+
+}
