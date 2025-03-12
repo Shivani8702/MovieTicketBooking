@@ -1,0 +1,7 @@
+Get- http://localhost:8082/moviecatlog/
+POST - http://localhost:8082/moviecatlog/insertmovie
+GET - http://localhost:8082/moviecatlog/greetme
+GET - http://localhost:8082/moviecatlog/fetchMovie?mname=Joker
+GET - http://localhost:8082/moviecatlog/fetchmovie/1001
+
+GET- http://localhost:8083/movieRatings/search/getMovieByRating?mr=5
